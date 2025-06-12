@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EdgeSphere - Next-Gen Cloud Platform 🌐⚡
 
-## Getting Started
+![1  Home Page](https://github.com/user-attachments/assets/31d1a301-46d7-4de6-893d-e94b59f55c7c)
 
-First, run the development server:
+## 🚀 Introduction
+EdgeSphere revolutionizes cloud computing by bringing powerful infrastructure to the edge. Our platform delivers unparalleled performance, security, and scalability for modern web applications.
 
+**Live Demo:** [https://edgesphere.vercel.app](https://edgesphere.vercel.app)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=(https://github.com/shubham001official/Edge-Sphere))
+[![GitHub Stars](https://img.shields.io/github/stars/shubham001official/edgesphere?style=social)](https://github.com/shubham001official/Edge-Sphere)
+
+## ✨ Key Features
+
+### 🌍 Edge-Native Architecture
+- Global low-latency distribution
+- Intelligent request routing
+- Automatic failover between regions
+
+### 🛡️ Security First
+- Zero-trust security model
+- End-to-end encryption
+- DDoS protection built-in
+
+### ⚡ Performance Optimized
+- Lightning-fast cold starts
+- Smart caching strategies
+- WASM-powered compute
+
+### 🔧 Developer Experience
+- Git-based deployments
+- Real-time logs
+- Performance analytics
+- CLI integration
+
+## 🖥️ Screenshots
+
+| ![1  Home Page](https://github.com/user-attachments/assets/d7914db3-2409-4dc3-89e0-b6f18f2454cc) | ![2  You Can Do](https://github.com/user-attachments/assets/6dac1a23-3be0-40a2-a338-4ff4b52204dd) |
+|-------------------------------------------|-----------------------------------------------|
+| *Modern Landing Page*                     | *Feature Highlights*                          |
+
+| ![3  Login Screen](https://github.com/user-attachments/assets/e59642bf-9c55-4dbc-9ffe-9d287cf2bc40) | ![4  Sign Up Screen](https://github.com/user-attachments/assets/a39950f7-64d8-4f8d-809e-ec8382eacee8) |
+|-------------------------------------------------|-------------------------------------------------------|
+| *Sleek Authentication*                          | *Quick Onboarding*                                    |
+
+| ![5  Dashboard](https://github.com/user-attachments/assets/b1e41371-65da-4dee-b03b-9072eb440b7f) |
+|-----------------------------------------|
+| *Powerful Management Console*           |
+
+## 🛠️ Technology Stack
+
+### Core Platform
+- **Frontend**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS + Framer Motion
+- **Authentication**: NextAuth.js
+- **Database**: PlanetScale (MySQL-compatible)
+- **Storage**: R2 Cloudflare Storage
+
+### Edge Infrastructure
+- **Compute**: Cloudflare Workers
+- **Networking**: Cloudflare Global Network
+- **Security**: Cloudflare Zero Trust
+
+### Development Tools
+- **CI/CD**: GitHub Actions
+- **Monitoring**: Sentry + Logflare
+- **Testing**: Playwright + Vitest
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v18+
+- pnpm 8.x
+- Cloudflare account
+- PlanetScale account
+
+### Local Development
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone repository
+git clone https://github.com/shubham001official/edgesphere.git
+cd edgesphere
+
+# Install dependencies
+pnpm install
+
+# Set up environment
+cp .env.example .env.local
+# Configure your environment variables
+
+# Start development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### One-Click Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=[your-repo-url](https://github.com/shubham001official/Edge-Sphere))
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Manual Deployment
+```bash
+# Build production version
+pnpm build
 
-## Learn More
+# Deploy to Vercel
+vercel --prod
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Architecture
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```mermaid
+graph LR
+    A[Client] --> B[Cloudflare Edge]
+    B --> C[Origin Server]
+    C --> D[PlanetScale DB]
+    C --> E[R2 Storage]
+    B --> F[Edge Functions]
+    F --> G[Cache Layer]
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contributing
+We welcome contributions! Please see our [Contribution Guidelines](CONTRIBUTING.md) for details.
 
-## Deploy on Vercel
+## 📜 License
+MIT License - See [LICENSE](LICENSE) for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Contact
+- Email: [shubham001official@gmail.com](mailto:shubham001official@gmail.com)
+- Twitter: [@S_Shubham001](https://twitter.com/S_Shubham001)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<p align="center">
+  Made with ❤️ by Shubham Sharma | Powered by the Edge
+</p>
